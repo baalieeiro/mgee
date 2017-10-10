@@ -142,4 +142,20 @@ body,
 .sub-menu .sub-menu {
     top: 0;
     left: 100%;
+    max-width: 
+}
+
+@media only screen and (max-width: 1200px){
+
+.busca input {
+	margin-left: 50px;
+}
+
+}
+
+@media only screen and (max-width: 992px){
+
+.busca input {
+	max-width: 55.666667%;
+
 }
